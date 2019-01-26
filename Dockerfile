@@ -1,2 +1,2 @@
 FROM pypiserver/pypiserver
-ADD ./SamplePackage/dist /data/packages
+ADD ./sample/dist /data/packages

@@ -1,5 +1,5 @@
 pypkg:
-	cd ./SamplePackage && python setup.py sdist bdist_wheel
+	cd ./sample && python setup.py sdist bdist_wheel
 pypiserver:
 	docker build -t lol .
 	docker run -p 8000:8080 lol
